@@ -7,7 +7,7 @@ variable "resource_group_name" {
 variable "location" {
   type        = string
   description = "Região Azure"
-  default     = "chilecentral"
+  default     = "brazilsouth"
 }
 
 variable "mysql_admin_username" {
